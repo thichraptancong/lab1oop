@@ -25,10 +25,10 @@ public:
     void view()
     {
         cout <<"The account list: "<<endl;
-        cout <<"    ID      Balance"<<endl;
+        cout <<"\t"<<"ID"<<"\t"<<"Balance"<<endl;
         for (int i=0; i<n; i= i+1)
         {
-            cout<<i+1<<". "<<ID[i]<<"     "<<balance1[i]<<endl;
+            cout<<i+1<<"\t"<<left<<setw(5)<<ID[i]<<"\t"<<balance1[i]<<endl;
         }
     }
     void sort1()
@@ -215,6 +215,7 @@ int main()
                 {
                     cout<<"you type the wrong ID"<<endl;
                 }
+                break;
             }
         case 4:
             {
