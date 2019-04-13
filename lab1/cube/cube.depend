@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1554515802 source:e:\00code\cube\cube.cpp
+	"cube.h"
+
+1554515174 e:\00code\cube\cube.h
+
+1554515877 source:e:\00code\cube\main.cpp
+	<iostream>
+	"cube.h"
+
+1554691156 source:e:\00code\cube\cube2.cpp
+	<iostream>
+	<conio.h>
+
